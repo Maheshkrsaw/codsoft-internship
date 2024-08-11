@@ -100,3 +100,96 @@ body, html {
     color: #555;
     margin-bottom: 15px;
 }
+
+
+/* Life and Achievements Section Styles */
+.achievements-section {
+    padding: 60px 20px;
+    background-color: #ffffff; /* White background for contrast */
+    text-align: center;
+}
+
+.achievements-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ff9800; /* Line color */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0;
+    text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%;
+    text-align: left;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ff9800; /* Circle color */
+    border-radius: 50%;
+    top: 20px;
+    z-index: 1;
+}
+
+.timeline-item:nth-child(odd)::before {
+    right: -15px;
+}
+
+.timeline-item:nth-child(even)::before {
+    left: -15px;
+}
+
+.timeline-date {
+    font-size: 1.2rem;
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.timeline-content {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.timeline-content h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
