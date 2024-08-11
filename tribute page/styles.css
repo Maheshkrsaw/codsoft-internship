@@ -318,9 +318,10 @@ body, html {
 }
 
 /* Footer Styles */
+/* Footer Styles */
 .footer {
     padding: 20px;
-    background-color: #333; /* Dark background for contrast */
+    background-color: #333333; /* Charcoal */
     color: #fff; /* White text color */
     text-align: center;
 }
@@ -349,6 +350,20 @@ body, html {
     text-decoration: underline;
 }
 
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-link {
+    color: #ff9800; /* Accent color for contact link */
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
 .social-links {
     margin: 20px 0;
 }
@@ -367,3 +382,5 @@ body, html {
 .social-icon:hover {
     color: #ff9800; /* Accent color on hover */
 }
+
+
