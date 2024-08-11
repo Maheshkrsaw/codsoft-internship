@@ -68,16 +68,3 @@ For any questions or feedback, you can reach me at:
 
 ```
 
-### **Explanation:**
-
-- **Live Link:** Provides access to the live project.
-- **Project Overview:** Brief description of the project.
-- **Features:** Highlights key sections of the tribute page.
-- **Technologies Used:** Lists the technologies used.
-- **Installation and Usage:** Instructions to view the project locally.
-- **Repository Structure:** Explains the file structure.
-- **License:** Specifies the license for the project.
-- **Acknowledgments:** Thanks to the Codsoft team.
-- **Contact:** Contact details for feedback or inquiries.
-
-Feel free to adjust the content and links according to your specific project details and preferences!
