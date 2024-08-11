@@ -47,13 +47,4 @@ Feel free to explore the project and provide any feedback!
 
 ```
 
-### **Explanation:**
 
-- **Live Link:** Provides direct access to the live project.
-- **Project Overview:** Briefly describes the project and its purpose.
-- **Technologies Used:** Lists the technologies utilized.
-- **How to View Locally:** Instructions for running the project locally.
-- **License:** Specifies the license.
-- **Acknowledgments:** Thanks the Codsoft team.
-
-This README file is simple and provides essential information about your project.
