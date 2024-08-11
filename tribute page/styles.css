@@ -237,3 +237,47 @@ body, html {
     color: #555;
     line-height: 1.6;
 }
+
+/* Legacy Section Styles */
+.legacy-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Very light grey background for contrast */
+    text-align: center;
+}
+
+.legacy-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.legacy-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.legacy-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    flex-basis: calc(50% - 20px); /* Take up half the width of the container minus the gap */
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.legacy-item h3 {
+    font-size: 1.5rem;
+    color: #ff9800;
+    margin-bottom: 15px;
+}
+
+.legacy-item p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
