@@ -316,3 +316,54 @@ body, html {
     max-width: 800px;
     margin: 20px auto;
 }
+
+/* Footer Styles */
+.footer {
+    padding: 20px;
+    background-color: #333; /* Dark background for contrast */
+    color: #fff; /* White text color */
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    color: #ff9800; /* Accent color */
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin: 20px 0;
+}
+
+.social-icon {
+    color: #fff; /* White color for icons */
+    font-size: 24px; /* Adjust icon size as needed */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icon i {
+    vertical-align: middle;
+}
+
+.social-icon:hover {
+    color: #ff9800; /* Accent color on hover */
+}
