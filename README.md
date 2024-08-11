@@ -1,7 +1,6 @@
 
 
 
-```markdown
 # Tribute Page for Bhagat Singh
 
 This project is created as part of the Codsoft Internship Level 2 - Project 1. It features a tribute page dedicated to Bhagat Singh, highlighting his contributions and legacy.
@@ -45,6 +44,7 @@ Thank you to the Codsoft team for providing this opportunity to work on this pro
 
 Feel free to explore the project and provide any feedback!
 
-```
+
+
 
 
